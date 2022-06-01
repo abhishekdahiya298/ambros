@@ -1525,6 +1525,10 @@ h3.quote::before {
 }
 h3.link:hover {text-decoration:underline;color: blue !important;}
 
-
+@media screen and (max-width: 992px) {
+  .header-top {
+    display: none !important;
+  }
+}
 
 /*# sourceMappingURL=maps/style.css.map */
