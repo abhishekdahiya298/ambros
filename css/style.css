@@ -78,6 +78,16 @@ p {
   background: #f75757;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
 input[type="email"],
 input[type="password"],
 input[type="text"],

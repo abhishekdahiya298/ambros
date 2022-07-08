@@ -98,6 +98,10 @@
 		time: 1000
 	});
 
-
+	
+	$(window).on("scroll", function() {
+		var s = 80;
+		$(".logoimg").height(s);
+	});
 
 })(jQuery);
